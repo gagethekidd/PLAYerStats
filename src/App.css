@@ -1,0 +1,148 @@
+/* .App {
+  text-align: center;
+  float: left;
+  padding: 20px;
+} */
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-color: #140000;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+}
+/* 
+.card {
+  border: 4px solid;
+  border-color: white;
+  text-align: center;
+  float: center;
+  padding: 10px;
+} */
+
+.Card1 {
+  border: 4px solid;
+  border-color: #c0c0c0;
+  text-align: center;
+  float: left;
+  padding: 8px;
+  width: 30%;
+  height: 550px;
+}
+
+.Card2 {
+  border: 4px solid;
+  border-color: #c0c0c0;
+  text-align: center;
+  float: left;
+  padding: 8px; 
+  width: 30%;
+  height: 550px;
+} 
+
+.compareCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid;
+  border-color: #c0c0c0;
+  float: left;
+  padding: 8px; 
+  width: 29%;
+  height: 550px;
+} 
+
+.modelCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid;
+  border-color: #c0c0c0;
+  float: center;
+  padding: 8px; 
+  width: 92.5%;
+  height: 175px;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/012/958/898/original/paper-money-us-dollars-transparent-background-png.png');
+}
+
+.Card3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid;
+  border-color: #c0c0c0;
+  float: left;
+  padding: 8px; 
+  width: 21.8%;
+  height: 175px
+} 
+
+.Card4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid;
+  border-color: #c0c0c0;
+  float: left;
+  padding: 8px; 
+  width: 21.8%;
+  height: 175px
+}
+
+.Card5 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid;
+  border-color: #c0c0c0;
+  float: left;
+  padding: 8px; 
+  width: 21.8%;
+  height: 175px;
+}
+
+.Card6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid;
+  border-color: #c0c0c0;
+  float: left;
+  padding: 8px; 
+  width: 21.8%;
+  height: 175px
+}
